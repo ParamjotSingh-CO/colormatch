@@ -10,3 +10,13 @@
     text-transform: uppercase;
 
 }
+
+.colorLabel{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.gameBodyRow{
+    background-color: #D3F6DB;
+    border-radius: 5px;
+}
