@@ -13,19 +13,19 @@ function ColorBand({setBandColor, setBandColorLabel}) {
     function selectRandomSolidColorName() {
         var randomInt = getRandomInt(solidColor.size);
         
-        console.log(`HexCode: ${solidColor.get(randomInt).HexCode}`);        
+        //console.log(`HexCode: ${solidColor.get(randomInt).HexCode}`);        
         colorNameLabelTextColorCode = solidColor.get(randomInt).HexCode;        
-        console.log(`font color: ${colorNameLabelTextColorCode}`); 
+        //console.log(`font color: ${colorNameLabelTextColorCode}`); 
 
         setBandColor(solidColor.get(randomInt).ColorName);        
-        console.log(`Color Name: ${solidColor.get(randomInt).ColorName}`);
+        //console.log(`Color Name: ${solidColor.get(randomInt).ColorName}`);
     }
 
     function selectRandomSolidColorLabel(){
         var randomInt = getRandomInt(solidColor.size);
         
         bandColorLabel = solidColor.get(randomInt).ColorName;
-        console.log(`Color name label: ${bandColorLabel}`);
+        //console.log(`Color name label: ${bandColorLabel}`);
         setBandColorLabel(bandColorLabel);
     }
 
